@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=ISO-8859-1"/>
+    <title>Multiple Extensions - Fancytree</title>
+
+    <script src="//code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- This demo uses an 3rd-party, jQuery UI based context menu -->
+    <link href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+    <script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <!-- jquery-contextmenu (https://github.com/mar10/jquery-ui-contextmenu/) -->
+    <script src="//cdn.jsdelivr.net/npm/ui-contextmenu/jquery.ui-contextmenu.min.js"></script>
+
+<!--    <link href="src/skin-win8/ui.fancytree.css" rel="stylesheet" />-->
+    <link href="src/skin-awesome/ui.fancytree.css" rel="stylesheet" class="skinswitcher">
+
+    <script src="src/jquery.fancytree.js"></script>
+    <script src="src/jquery.fancytree.dnd5.js"></script>
+    <script src="src/jquery.fancytree.edit.js"></script>
+    <script src="src/jquery.fancytree.gridnav.js"></script>
+    <script src="src/jquery.fancytree.table.js"></script>
+    <script src="src/jquery.fancytree.glyph.js"></script>
+
+    <script src="js/tree-umb.js"></script>
+    <!--
+  <script src="../../build/jquery.fancytree-all.min.js"></script>
+-->
+
+    <!-- (Irrelevant source removed.) -->
+
+    <style type="text/css">
+        .ui-menu {
+            width: 180px;
+            font-size: 63%;
+        }
+        .ui-menu kbd {
+            /* Keyboard shortcuts for ui-contextmenu titles */
+            float: right;
+        }
+        /* custom alignment (set by 'renderColumns'' event) */
+        td.alignRight {
+            text-align: right;
+        }
+        td.alignCenter {
+            text-align: center;
+        }
+        td input[type="input"] {
+            width: 40px;
+        }
+    </style>
+
+</head>
+
+<body class="example">
+<table id="tree">
+    <tbody>
+    <!-- Define a row template for all invariant markup: -->
+    <tr>
+        <td class="alignCenter"></td>
+        <td></td>
+        <td></td>
+<!--        <td><input name="input1" type="input" /></td>-->
+<!--        <td><input name="input2" type="input" /></td>-->
+<!--        <td class="alignCenter">-->
+<!--            <input name="cb1" type="checkbox" />-->
+<!--        </td>-->
+<!--        <td class="alignCenter">-->
+<!--            <input name="cb2" type="checkbox" />-->
+<!--        </td>-->
+<!--        <td>-->
+<!--            <select name="sel1" id="">-->
+<!--                <option value="a">A</option>-->
+<!--                <option value="b">B</option>-->
+<!--            </select>-->
+        </td>
+    </tr>
+    </tbody>
+</table>
+
+<!-- (Irrelevant source removed.) -->
+</body>
+</html>
